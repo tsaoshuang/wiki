@@ -1,0 +1,24 @@
+nav.tc-menubar li.tc-menubar-item {color: #000;}
+
+.krystal-header {
+    background: #CFFF55;
+    background: linear-gradient(-36deg, #CFFF55 25%, #E0FF94 80%, #FFFFC9 100%);
+    border-bottom: 1px groove #e1eab5;
+	  flex-wrap: wrap;
+    align-items: center;
+    text-align: inherit;
+	  padding: 1em;
+    position: relative;
+    z-index: 10;
+	  --krystal-header-height: 61px;
+}
+
+.krystal-header--small {
+    text-align: left;
+	  display: none;
+}
+
+.krystal-header--big {
+    display: flex;
+}
+
